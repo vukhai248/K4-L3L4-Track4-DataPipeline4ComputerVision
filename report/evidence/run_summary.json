@@ -1,0 +1,45 @@
+{
+  "student_id": "2A202602786",
+  "finished_at": "2026-10-12T20:25:12.432902+00:00",
+  "verify_all_passed": true,
+  "dataset_version": "45a2c630a07d",
+  "frames": 1022,
+  "by_split": {
+    "train": 728,
+    "test": 121,
+    "val": 173
+  },
+  "trips_by_split": {
+    "train": 18,
+    "test": 4,
+    "val": 4
+  },
+  "quarantine": {
+    "drive_b:duplicate": 20,
+    "drive_a:duplicate": 20,
+    "drive_a:speed_out_of_range": 3,
+    "drive_b:speed_out_of_range": 3,
+    "drive_a:speed_missing": 30,
+    "drive_b:speed_missing": 30
+  },
+  "frame_funnel": [
+    {
+      "drive": "drive_a",
+      "total": 602,
+      "black": 6,
+      "blurry": 9,
+      "dark_kept": 4,
+      "near_dup": 146,
+      "sync_lost": 7
+    },
+    {
+      "drive": "drive_b",
+      "total": 644,
+      "black": 4,
+      "blurry": 0,
+      "dark_kept": 61,
+      "near_dup": 53,
+      "sync_lost": 7
+    }
+  ]
+}
